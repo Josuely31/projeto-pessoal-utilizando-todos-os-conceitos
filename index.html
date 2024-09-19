@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>POO YOU DEVS</title>
+</head>
+<body style="background-color: #333; color: white;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-5">
+                <img src="./youdevs.png" width="120" alt="YouDevs - Aprendamos juntos">
+                <h1>POO com Javascript</h1>
+                <h2>Pilares de POO (Programação Orientada a Objetos)</h2>
+            </div>
+            <div class="col-sm-12 col-md-6 py-4 bg-warning text-center text-light">
+                <h3>Abstração</h3>
+                Abstrair é eliminar detalhes desnecessários para que possamos apenas focar.
+                nos aspectos que são necessários para o contexto ou sistema que estamos desenvolvendo.
+                <br><br>
+                Por exemplo, digamos que você seja estudante e também funcionário.
+                Para o sistema escolar eles só se preocupam com você como aluno, não se preocupam com sua propriedade como funcionário,
+                então o sistema escolar apenas <b>abstrai</b> as propriedades nas quais está interessado de você
+                tais como: nome, nota e qualificações
+                Mas o seu sistema de trabalho está interessado nas suas propriedades como funcionário, que podem ser:
+                número_dofuncionário, cargo e salário.
+            </div>
+            <div class="col-sm-12 col-md-6 py-4 bg-info text-center text-light">
+                <h3 class="mb-0">Encapsulamento</h3>
+                <p>
+                    Ele se concentra em ocultar detalhes que não são relevantes para o exterior
+                    É o agrupamento de dados (propriedades) e os métodos que atuam nessas propriedades
+                    portanto, o acesso a esses dados é restrito fora do pacote (classe).
+                    Na POO, isso significa que um objeto armazena seu estado <b>de forma privada</b>,
+                    e apenas os métodos do objeto têm acesso para alterá-lo.
+                    <br><br>
+                    Por exemplo, se um usuário de motocicleta deseja dar partida na motocicleta; então existe uma interface para fazer isso;
+                    e o usuário não tem acesso direto para ativá-lo
+                    da própria fiação interna (sabendo que isso pode dar errado),
+                    Poderíamos até concluir que o usuário da motocicleta
+                    Você não se importa como o sistema de ignição funciona,
+                    Você só está interessado em usá-lo para começar a se mover.
+                    Assim, os detalhes da operação permanecem ocultos ao usuário,
+                    mas em vez disso você receberá uma interface fácil de usar (se necessário).
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 py-4 bg-primary text-center text-light">
+                <h3>Herança</h3>
+                <p>
+                    >É a forma como uma classe (filho) herda seus métodos e atributos de outra classe (pai).
+                    A herança permite a reutilização de código de uma classe em outra e é ideal para implementá-lo
+                    quando os objetos têm semelhanças entre si.
+                    <br><br>
+                    Por exemplo, um livro tem título e autor, e por outro lado uma história em quadrinhos também tem título e autor,
+                    Em OOP poderíamos usar herança para fazer o Comic herdar do Book e evitar a repetição de código desnecessário.
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 py-4 bg-dark text-center text-light">
+                <h3>Polimorfismo</h3>
+                <p>
+                    Refere-se à capacidade de realizar a mesma ação de maneiras diferentes.
+                    <br><br>
+                    Por exemplo, se tivermos uma classe A com método M e uma classe B que herda de A, a classe B
+                    você pode usar o mesmo método M da classe A,
+                    mas com uma realização (um pouco) diferente.
+                    <br><br>
+                    <b>Polimorfismo</b> é uma palavra grega que significa <b>"com muitas formas"</b>
+                </p>
+                   
+            </div>
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-12 mt-5">
+                <h2>Terminología POO</h2>
+                <h3>Objetos</h3>
+                <p>
+                    Eles são a peça central do OOP.
+                    Objetos são compostos de dados (propriedades) e métodos (funções) que operam nesses dados.
+                </p>
+                <h3>Propiedade</h3>
+                <p>
+                    É um dado que representa uma característica de um objeto.
+                    Uma propriedade é uma variável.
+                    Um objeto pode ter muitas propriedades.
+                </p>
+                <h3>Método</h3>
+                <p>
+                    É uma função que nosso objeto pode executar. Um objeto pode ter muitos métodos.
+                </p>
+                <h3>Clase</h3>
+                <p>
+                    Eles funcionam como modelos e são usados ​​para instanciar (criar) objetos.
+                    Uma classe encapsula (contém) todas as propriedades e métodos que os objetos armazenarão posteriormente.
+                    instanciado. Uma classe representa um tipo de objeto; exemplo: Livro, Carro, Cachorro.
+                </p>
+                <h3>Constructor</h3>
+                <p>
+                    É um método que é chamado no momento da criação de instâncias (objetos).
+                    Construtores são úteis para (desculpe a redundância) "construir" ou inicializar propriedades
+                    dos objetos.
+                </p>
+                <h3>Getter</h3>
+                <p>Um getter é um método que permite acessar uma propriedade privada de um objeto em vez de usar a propriedade diretamente.</p>
+                <h3>Setter</h3>
+                <p>Um setter é um método que permite acessar e modificar uma propriedade privada de um objeto em vez de modificar a propriedade diretamente.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <div class="row">
+            <div class="col-12">
+                <img src="./youdevs.png" width="120" alt="YouDevs - Aprendamos juntos">
+            </div>
+        </div>
+    </footer>
+
+    <script src="./oop.js"></script>
+</body>
+</html>
